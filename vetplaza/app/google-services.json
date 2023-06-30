@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "767397246155",
+    "firebase_url": "https://vetplaza-276af-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vetplaza-276af",
+    "storage_bucket": "vetplaza-276af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767397246155:android:d89857461ba2d0e56ad74e",
+        "android_client_info": {
+          "package_name": "com.project.vetplaza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767397246155-u23to7nimdnu6t1rnm2ckaea4e1iaimt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc6LvbkXBwGnCseK_tBnDnnntVs_ihb-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767397246155-u23to7nimdnu6t1rnm2ckaea4e1iaimt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

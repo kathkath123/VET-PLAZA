@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.85"
+        android:background="@drawable/background3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:src="@drawable/paws" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bg"
+        android:layout_marginTop="-120dp"
+        android:src="@drawable/paws2"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/bg3"
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <RelativeLayout
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="185dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="@color/white"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/logo"
+            tools:ignore="ContentDescription"/>
+    </RelativeLayout>
+
+</RelativeLayout>
